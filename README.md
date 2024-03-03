@@ -1,2 +1,2 @@
 # GetGiftWebsite
-用Python和Flask写的新手礼包领取网站
+用Python和Flask写的Minecraft服务器新手礼包领取网站
