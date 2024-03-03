@@ -23,8 +23,8 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/xinshoulibao", methods=["GET"])
-def xinshoulibao():
+@app.route("/get", methods=["GET"])
+def getGift():
     username = request.args.get("username")
     if (username == None or username == ""):
         return "出错。"
